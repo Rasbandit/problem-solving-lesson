@@ -64,7 +64,7 @@ One of the fathers of logic is the ancient greek philosopher Socrates. He invent
 
 ```A form of cooperative argumentative dialogue between individuals, based on asking and answering questions to stimulate critical thinking and to draw out ideas and underlying presuppositions.```
 
-The socratic method in its most basic description is what arguing, or debate is ment to be.
+The socratic method in its most basic description is what arguing, or what debate is ment to be.
 
 To argue is to engage two people in a discussion on a topic where both parties have difference in what they view to be "truth" and they set out to come to a conclusion of what is true, or to achieve knowlege. The goal of this can not to "win the argument" but again is learn. Your goal must be to align yourself with the truth, if your goal is to be right and you have a hard time backing down from an argument then Coding is going to knock you down and and keep kicking until you agree with it.
 
@@ -129,9 +129,9 @@ All the examples of code work exactly the same, they all run just as fast, they 
 
 ``` javascript
 function itemRemover(arrayToModify, itemToRemove) {
-  for(var index = 0; i < arrayToModify.length; i++) {
+  for(var index = 0; i < arrayToModify.length; index++) {
     if(arrayToModify[i] === itemToRemove) {
-      arrayToModify.splice(i, 1);
+      arrayToModify.splice(index, 1);
     }
   }
   return arrayToModify
@@ -276,3 +276,6 @@ When you run into bugs or errors in your code it is 99% your fault. There is no 
 
 getting your wallet out.
 
+### There is no correct answer
+
+All we do is teach you tools
